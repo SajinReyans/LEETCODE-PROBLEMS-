@@ -4,7 +4,7 @@ class Solution(object):
         :type strs: List[str]
         :rtype: str
         """
-        minVal=min(list([len(string) for string in strs]))
+        minVal=min(list([len(string) for string in strs])) 
         compare = strs[0]
         for i in range(minVal):
             for string in strs:
